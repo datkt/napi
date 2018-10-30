@@ -4,15 +4,9 @@ N-API C Interop for Kotlin/Native
 
 ## Installation
 
-The `napi` package an be installed with various package managers.
-
-### From NPM
-
 ```sh
-$ npm install datkt/napi
+$ npm install @datkt/napi
 ```
-
-**Note:** *This will install **napi** into `node_modules/napi`*
 
 ## Prerequisites
 
