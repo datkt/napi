@@ -1,6 +1,6 @@
 {
   "name": "@datkt/napi",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "N-API C Interop for Kotlin/Native",
   "main": "napi.klib",
   "scripts": {
