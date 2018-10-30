@@ -1,0 +1,31 @@
+{
+  "name": "@datkt/napi",
+  "version": "0.0.1",
+  "description": "N-API C Interop for Kotlin/Native",
+  "main": "napi.klib",
+  "scripts": {
+    "build": "npm run klib",
+    "klib": "cinterop -def napi.def -pkg napi -o napi",
+    "install": "npm run klib",
+    "test": ":"
+  },
+  "keywords": [
+    "napi",
+    "node",
+    "api",
+    "bindings",
+    "kotlin",
+    "native",
+    "klib"
+  ],
+  "author": "Joseph Werle <werle@littlstar.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datkt/napi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/datkt/napi/issues"
+  },
+  "homepage": "https://github.com/datkt/napi#readme"
+}
