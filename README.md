@@ -12,7 +12,7 @@ $ npm install @datkt/napi
 
 * [Kotlin/Native](https://github.com/JetBrains/kotlin-native) and the
   `konanc` command line program.
-* [node\_api.h](https://www.gnu.org/software/make/)
+* [node\_api.h](https://github.com/nodejs/node/blob/master/src/node_api.h)
 
 ## Usage
 
