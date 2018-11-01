@@ -18,7 +18,10 @@ $ npm install @datkt/napi
 
 ```sh
 ## Compile a shared library with 'module.kt' and link napi.klib found in `node_modules/`
-$ konanc -r node_modules/@datkt -l napi/napi -p shared -o binding module.kt
+
+$ konanc -r node_modules/@datkt -l napi/napi -p shared -o binding module.kt ## Linux
+$ konanc -r node_modules/@datkt -l napi/napi -p dynamic -o binding module.kt ## OSX
+
 $ mv libbinding.so binding.node
 $ node -e "require('./binding')"
 ```
