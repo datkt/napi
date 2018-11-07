@@ -4,9 +4,8 @@
   "description": "N-API C Interop for Kotlin/Native",
   "main": "napi.klib",
   "scripts": {
-    "build": "npm run klib",
-    "klib": "cinterop -def napi.def -pkg napi -o napi",
-    "install": "npm run klib",
+    "build": "cinterop -def napi.def -pkg napi -o napi",
+    "postinstall": "npm run build",
     "test": ":"
   },
   "keywords": [
