@@ -1,0 +1,2 @@
+library = "napi"
+repo = "@datkt/napi"
